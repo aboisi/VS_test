@@ -53,5 +53,15 @@ class Main {
         x++;
         x--;
 
+        int length = 6;
+        int height = 8;
+
+        // 四角形の面積
+        int rectangleArea = length * height;
+        System.out.println(rectangleArea);
+        // 三角形の面積
+        int triangleArea = rectangleArea /2;
+        System.out.println(triangleArea);
+
     }
 }
