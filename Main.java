@@ -63,5 +63,12 @@ class Main {
         int triangleArea = rectangleArea /2;
         System.out.println(triangleArea);
 
+        // int型(整数)
+        // double型(小数)
+        double number3 = 5.82;
+        System.out.println(number3);
+        double number4 = 3.4;
+        System.out.println(number3 + number4);
+
     }
 }
