@@ -113,5 +113,11 @@ public class Main {
         System.out.println(9.0/2);
         System.out.println(9/2.0);
 
+        //型変換
+        long l = 5 +2L;//(int型)を5L(long型)に変換
+        System.out.println(l);
+        String msg1 = "私の年齢は" + 23;// 23(int型)が"23"(String型)に変換されて連結される
+        System.out.println(msg1);
+
     }
 }
