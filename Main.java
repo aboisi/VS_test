@@ -85,5 +85,14 @@ public class Main {
         int c = a * b;
         System.out.println("縦幅" + a + "横幅" + b + "の長方形の面積は、" + c);
 
+        //16進数
+        int aa = 0x11;//先頭に0xをつける
+        System.out.println(aa);
+        //8進数
+        int bb = 011;//先頭に0をつける
+        System.out.println(bb);
+        //2進数
+        int cc = 0b11;//先頭に0bをつける
+        System.out.println(cc);
     }
 }
