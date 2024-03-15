@@ -108,5 +108,10 @@ public class Main {
         System.out.println(prof1);
         System.out.println(prof2);
 
+        //演算子
+        System.out.println(9/2);// 9/2だと4と評価される
+        System.out.println(9.0/2);
+        System.out.println(9/2.0);
+
     }
 }
