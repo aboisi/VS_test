@@ -94,5 +94,19 @@ public class Main {
         //2進数
         int cc = 0b11;//先頭に0bをつける
         System.out.println(cc);
+
+        //エスケープシーケンス
+        System.out.println("私の好きな記号は二重引用符（\"）です");
+        System.out.println("文を途中で\n改行");
+
+        //テキストブロックを用いた複数行の文字列
+        String prof1 = "名前：朝香あゆみ\n      (あさかあゆみ)";
+        String prof2 = """
+                       名前：湊雄輔
+                             (みなとゆうすけ)
+                       """;
+        System.out.println(prof1);
+        System.out.println(prof2);
+
     }
 }
