@@ -1,4 +1,4 @@
-class Main {
+public class Main {
     public static void main(String[] args) {
         System.out.println(3);
         System.out.println(5 + 3);
@@ -69,6 +69,15 @@ class Main {
         System.out.println(number3);
         double number4 = 3.4;
         System.out.println(number3 + number4);
+
+        //char型
+        char zodiac;
+        zodiac = '辰';//文字データは(')で囲む
+        System.out.println(zodiac);
+        //String型
+        String name1;
+        name1 = "すがわら";//文字列データは(")で囲む
+        System.out.println(name1);
 
     }
 }
