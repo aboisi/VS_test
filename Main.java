@@ -119,5 +119,28 @@ public class Main {
         String msg1 = "私の年齢は" + 23;// 23(int型)が"23"(String型)に変換されて連結される
         System.out.println(msg1);
 
+        //命令実行の文
+        //改行なし画面出力
+        System.out.print("私の名前は");
+        System.out.print(name1);
+        System.out.print("です");
+        //2つの値を比較して大きい方の数値を代入する
+        int m = Math.max(a, b);
+        System.out.println("比較実験：" + 
+            a + "と" + b + "とで大きい方は···" + m );
+        //文字列を整数に変換する
+        String age = "31";
+        int n = Integer.parseInt(age);
+        System.out.println("あなたは来年、" + (n + 1) + "歳になりますね。");
+        //乱数を発生させる
+        int r = new java.util.Random().nextInt(90);// nextInt(指定値自体を含まない上限値)
+        System.out.println("あなたはたぶん、" + r + "歳ですね？");
+        //キーボードから1行の入力を受け取る
+        System.out.println("あなたの名前を入力してください。");
+        String name2 = new java.util.Scanner(System.in).nextLine();//1行の文字列の入力を受け付ける
+        System.out.println("あなたの年齢を入力してください");
+        int age1 = new java.util.Scanner(System.in).nextInt();//1つの整数の入力を受け付ける
+        System.out.println
+            ("ようこそ、" + age1 + "歳の" + name2 + "さん");
     }
 }
