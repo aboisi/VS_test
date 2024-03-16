@@ -135,12 +135,18 @@ public class Main {
         //乱数を発生させる
         int r = new java.util.Random().nextInt(90);// nextInt(指定値自体を含まない上限値)
         System.out.println("あなたはたぶん、" + r + "歳ですね？");
-        //キーボードから1行の入力を受け取る
-        System.out.println("あなたの名前を入力してください。");
-        String name2 = new java.util.Scanner(System.in).nextLine();//1行の文字列の入力を受け付ける
-        System.out.println("あなたの年齢を入力してください");
-        int age1 = new java.util.Scanner(System.in).nextInt();//1つの整数の入力を受け付ける
-        System.out.println
-            ("ようこそ、" + age1 + "歳の" + name2 + "さん");
+        // //キーボードから1行の入力を受け取る
+        // System.out.println("あなたの名前を入力してください。");
+        // String name2 = new java.util.Scanner(System.in).nextLine();//1行の文字列の入力を受け付ける
+        // System.out.println("あなたの年齢を入力してください");
+        // int age1 = new java.util.Scanner(System.in).nextInt();//1つの整数の入力を受け付ける
+        // System.out.println
+        //     ("ようこそ、" + age1 + "歳の" + name2 + "さん");
+
+        //練習2-1
+        int x1 = 5;
+        int y1 = 10;
+        String ans = "x+yは" + (x1 + y1);//(X1+y1)と()で囲んで評価順位を上げる
+        System.out.println(ans);
     }
 }
