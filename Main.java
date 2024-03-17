@@ -158,5 +158,12 @@ public class Main {
         } else {
             System.out.println("映画を見ます");
         }
+
+        //繰り返し
+        boolean doorClose =true;
+        while (doorClose == false) { //trueの場合無限ループ
+            System.out.println("ノックする");
+            System.out.println("1分待つ");
+        }
     }
 }
