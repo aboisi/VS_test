@@ -148,5 +148,15 @@ public class Main {
         int y1 = 10;
         String ans = "x+yは" + (x1 + y1);//(X1+y1)と()で囲んで評価順位を上げる
         System.out.println(ans);
+
+        //条件権分岐
+        //天気による行動の変化
+        boolean tenki = true;
+        if (tenki == true) {
+            System.out.println("洗濯をします");
+            System.out.println("散歩にいきます");
+        } else {
+            System.out.println("映画を見ます");
+        }
     }
 }
