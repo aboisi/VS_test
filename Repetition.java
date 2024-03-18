@@ -35,6 +35,28 @@ public class Repetition {
             int l = i * 2;
             System.out.println("現在" + l);
         }
+        //九九の表
+        for (int i = 1; i < 10; i++) {
+            for (int l = 1; l < 10; l++) {
+                System.out.print(i * l);
+                System.out.print(" ");
+            }
+            System.out.println(" ");
+        }
+        //break文
+        for (int i = 1; i < 10; i++) {
+            if (i == 3) {
+                break;
+            }
+            System.out.println(i);
+        }
+        //continue文
+        for (int i = 1; i <10; i++) {
+            if (i == 3) {
+                continue;
+            }
+            System.out.println(i);
+        }
     }
     
 }
