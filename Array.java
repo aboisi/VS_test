@@ -25,6 +25,14 @@ public class Array {
         int avg = sum / scores.length;
         System.out.println("合計点" + sum);
         System.out.println("平均点" + avg);
+        //50点以上の科目の数を調べる
+        int count = 0;
+        for (int i = 0; i < scores3.length; i++) {
+            if (scores3[i] >= 50) {
+                count++;
+            }
+        }
+        System.out.println("50点以上の科目の数は" + count);
     }
     
 }
