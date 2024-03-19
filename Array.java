@@ -65,6 +65,11 @@ public class Array {
             //上記の①~③を1行に
             System.out.print(base[seq[i]] + " ");
         }
+        //拡張for文
+        int[] scores4 = {20, 30, 40, 50, 80};
+        for (int value : scores4) {
+            System.out.println(value);
+        }
         
     }
     
