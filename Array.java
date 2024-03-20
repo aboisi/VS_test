@@ -76,6 +76,11 @@ public class Array {
         arrayB = arrayA;
         arrayB[0] = 100; //arrayB[0]に100を代入
         System.out.println(arrayA[0]); 
+        //nullの利用
+        // int[] arrayC = {1, 2, 3};
+        // arrayC = null;
+        // arrayC[0] = 10;
+        // System.out.println(arrayC[0]); //エラーになる
     }
     
 }
