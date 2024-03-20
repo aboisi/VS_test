@@ -81,6 +81,11 @@ public class Array {
         // arrayC = null;
         // arrayC[0] = 10;
         // System.out.println(arrayC[0]); //エラーになる
+
+        //文字列のlength()
+        //String型の後に.lengthを付けると、文字列の長さを取得
+        String str = "Javaで開発";
+        System.out.println(str.length());
     }
     
 }
