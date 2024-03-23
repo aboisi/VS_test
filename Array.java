@@ -97,6 +97,10 @@ public class Array {
         score[1][1] = 60;
         score[1][2] = 70;
         System.out.println(score[1][1]);
+        //親配列と子配列の要素数を表示
+        int[][] scores5 = {{40, 50, 60}, {80, 60, 70}} ;
+        System.out.println(scores5.length);
+        System.out.println(scores5[0].length);
 
     }
     
