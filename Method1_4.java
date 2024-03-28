@@ -9,4 +9,5 @@ public class Method1_4 {
     public static void main(String[] args) {
         methodA();//methodA()を呼び出す
     }
+}
     //main()→methodA()→methodB()
