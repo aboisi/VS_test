@@ -165,5 +165,6 @@ public class Main {
             System.out.println("ノックする");
             System.out.println("1分待つ");
         }
+
     }
 }
